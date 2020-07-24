@@ -1,0 +1,14 @@
+[
+	{
+		"remote":"github",
+		"repository":"Kitaez71/android_device_samsung_jackpotlte",
+		"target_path":"device/samsung/universal7885",
+		"revision":"master"
+	}
+	{
+		"remote":"github",
+		"repository":"Kitaez71/android_kernel_samsung_jackpotlte",
+		"target_path":"kernel/samsung/universal7885",
+		"revision":"master"
+	}	
+]
