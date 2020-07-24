@@ -2,8 +2,8 @@
 	{
 		"remote":"github",
 		"repository":"Kitaez71/android_device_samsung_jackpotlte",
-		"target_path":"device/samsung/universal7885",
-		"revision":"master"
+		"target_path":"device/samsung/jackpotlte",
+		"revision":"android_10.0"
 	}
 	{
 		"remote":"github",

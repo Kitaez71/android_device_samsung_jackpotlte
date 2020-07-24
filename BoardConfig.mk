@@ -86,6 +86,8 @@ TARGET_SUPPORTS_64_BIT_APPS := false
 
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
+TWRP_THEME_LOC := device/samsung/jackpotlte/theme/$(TW_THEME)
+UI_XML := $(TWRP_THEME_LOC)/ui.xml
 RECOVERY_VARIANT := twrp
 BOARD_RECOVERY_SWIPE := true
 TARGET_RECOVERY_FSTAB := device/samsung/jackpotlte/recovery.fstab
@@ -115,8 +117,7 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_FBE := true
 
 # Include
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/jackpotlte/include \
-							   bootable/recovery/gui/theme/portrait_hdpi
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/jackpotlte/include
 
 # SELinux Policies
 BOARD_SEPOLICY_DIRS := device/samsung/jackpotlte/sepolicy
