@@ -1,7 +1,6 @@
-ifneq ($(filter jackpotlte,$(TARGET_DEVICE)),)
-
 LOCAL_PATH := $(call my-dir)
 
-include $(call all-makefiles-under,device/samsung/jackpotlte)
-
+ifeq ($(TARGET_DEVICE),jackpotlte)
+include $(call all-makefiles-under,$(LOCAL_PATH))
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
